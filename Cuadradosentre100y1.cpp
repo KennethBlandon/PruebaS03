@@ -9,9 +9,9 @@ int main() {
 	c = 0;
 	for (i=1;i<=100;i++) {
 		c = (n*n)+c;
-		cout << c << endl;
 		n = n+1;
 	}
+	cout << c << endl;
 	return 0;
 }
 
